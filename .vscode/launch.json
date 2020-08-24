@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "GDTV_BuildingEscape (Debug)",
+			"request": "launch",
+			"preLaunchTask": "GDTV_BuildingEscape Mac Debug Build",
+			"program": "/Users/pnavarro/Desktop/Repositories/Unreal Engine Projects/GDTV_BuildingEscape/Binaries/Mac/UE4-Mac-Debug.app/Contents/MacOS/UE4-Mac-Debug",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.25",
+			"type": "lldb"
+		},
+		{
+			"name": "GDTV_BuildingEscape (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "GDTV_BuildingEscape Mac DebugGame Build",
+			"program": "/Users/pnavarro/Desktop/Repositories/Unreal Engine Projects/GDTV_BuildingEscape/Binaries/Mac/UE4-Mac-DebugGame.app/Contents/MacOS/UE4-Mac-DebugGame",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.25",
+			"type": "lldb"
+		},
+		{
+			"name": "GDTV_BuildingEscape (Development)",
+			"request": "launch",
+			"preLaunchTask": "GDTV_BuildingEscape Mac Development Build",
+			"program": "/Users/pnavarro/Desktop/Repositories/Unreal Engine Projects/GDTV_BuildingEscape/Binaries/Mac/UE4.app/Contents/MacOS/UE4",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.25",
+			"type": "lldb"
+		},
+		{
+			"name": "GDTV_BuildingEscape (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "GDTV_BuildingEscape Mac Shipping Build",
+			"program": "/Users/pnavarro/Desktop/Repositories/Unreal Engine Projects/GDTV_BuildingEscape/Binaries/Mac/UE4-Mac-Shipping.app/Contents/MacOS/UE4-Mac-Shipping",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.25",
+			"type": "lldb"
+		},
+		{
+			"name": "GDTV_BuildingEscape (Test)",
+			"request": "launch",
+			"preLaunchTask": "GDTV_BuildingEscape Mac Test Build",
+			"program": "/Users/pnavarro/Desktop/Repositories/Unreal Engine Projects/GDTV_BuildingEscape/Binaries/Mac/UE4-Mac-Test.app/Contents/MacOS/UE4-Mac-Test",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.25",
+			"type": "lldb"
+		},
+		{
+			"name": "GDTV_BuildingEscapeEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "GDTV_BuildingEscapeEditor Mac Debug Build",
+			"program": "/Users/Shared/Epic Games/UE_4.25/Engine/Binaries/Mac/UE4Editor-Mac-Debug.app/Contents/MacOS/UE4Editor-Mac-Debug",
+			"args": [
+				"/Users/pnavarro/Desktop/Repositories/Unreal Engine Projects/GDTV_BuildingEscape/GDTV_BuildingEscape.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.25",
+			"type": "lldb"
+		},
+		{
+			"name": "GDTV_BuildingEscapeEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "GDTV_BuildingEscapeEditor Mac DebugGame Build",
+			"program": "/Users/Shared/Epic Games/UE_4.25/Engine/Binaries/Mac/UE4Editor-Mac-DebugGame.app/Contents/MacOS/UE4Editor-Mac-DebugGame",
+			"args": [
+				"/Users/pnavarro/Desktop/Repositories/Unreal Engine Projects/GDTV_BuildingEscape/GDTV_BuildingEscape.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.25",
+			"type": "lldb"
+		},
+		{
+			"name": "GDTV_BuildingEscapeEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "GDTV_BuildingEscapeEditor Mac Development Build",
+			"program": "/Users/Shared/Epic Games/UE_4.25/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
+			"args": [
+				"/Users/pnavarro/Desktop/Repositories/Unreal Engine Projects/GDTV_BuildingEscape/GDTV_BuildingEscape.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.25",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/Users/Shared/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/Users/pnavarro/Desktop/Repositories/Unreal Engine Projects/GDTV_BuildingEscape/GDTV_BuildingEscape.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/Users/Shared/Epic Games/UE_4.25"
+		}
+	]
+}

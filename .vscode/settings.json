@@ -1,0 +1,12 @@
+{
+	"files.exclude": {
+		"/Users/pnavarro/Desktop/Repositories/Unreal Engine Projects/GDTV_BuildingEscape/Saved": true,
+		"/Users/pnavarro/Desktop/Repositories/Unreal Engine Projects/GDTV_BuildingEscape/cmake-build-debug": true,
+		"/Users/pnavarro/Desktop/Repositories/Unreal Engine Projects/GDTV_BuildingEscape/Content": true,
+		"/Users/pnavarro/Desktop/Repositories/Unreal Engine Projects/GDTV_BuildingEscape/DerivedDataCache": true,
+		"/Users/pnavarro/Desktop/Repositories/Unreal Engine Projects/GDTV_BuildingEscape/.git": true,
+		"/Users/pnavarro/Desktop/Repositories/Unreal Engine Projects/GDTV_BuildingEscape/.vscode": true,
+		"/Users/pnavarro/Desktop/Repositories/Unreal Engine Projects/GDTV_BuildingEscape/Intermediate": true,
+		"/Users/pnavarro/Desktop/Repositories/Unreal Engine Projects/GDTV_BuildingEscape/.idea": true
+	}
+}

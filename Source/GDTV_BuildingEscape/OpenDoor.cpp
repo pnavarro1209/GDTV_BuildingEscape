@@ -1,6 +1,8 @@
 // Copyright Precious Navarro 2020
 
 
+#include "Engine/World.h"
+#include "GameFramework/PlayerController.h"
 #include "OpenDoor.h"
 #include "GameFramework/Actor.h"
 
@@ -19,9 +21,14 @@ UOpenDoor::UOpenDoor()
 void UOpenDoor::BeginPlay()
 {
 	Super::BeginPlay();
+
+	//Initializing variables
 	InitialYaw = GetOwner()->GetActorRotation().Yaw;
-	CurrentYaw = InitialYaw;
 	TargetYaw += InitialYaw;
+    OpenAngle = InitialYaw;
+
+    //Getting Actor for Pressure Plate to check
+    ActorThatOpensDoor = GetWorld()->GetFirstPlayerController()->GetPawn();
 }
 
 
@@ -30,13 +37,42 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
+	//triggers opening the door when Actor touches the Pressure Plate
+	if(PressurePlate && PressurePlate->IsOverlappingActor(ActorThatOpensDoor))
+	{
+	    OpenDoor(DeltaTime);
+	    DoorLastOpened = GetWorld()->GetTimeSeconds();
+	}
+    else
+    {
+        if(GetWorld()->GetTimeSeconds() - DoorLastOpened > DoorCloseDelay)
+        {
+            CloseDoor(DeltaTime);
+        }
+    }
 
-	UE_LOG(LogTemp, Warning, TEXT("Current Rotation: %s"), *GetOwner()->GetActorRotation().ToString());
-	UE_LOG(LogTemp, Warning, TEXT("Current Yaw: %f"), CurrentYaw);
-
-	FRotator DoorRotation = GetOwner()->GetActorRotation();
-	CurrentYaw = FMath::Lerp(CurrentYaw, TargetYaw, DeltaTime * 0.5f);
-	DoorRotation.Yaw = CurrentYaw;
-	GetOwner()->SetActorRotation(DoorRotation);
 }
 
+/**
+ * Function to rotate the door open.
+ * @param DeltaTime
+ */
+void UOpenDoor::OpenDoor(float DeltaTime)
+{
+    OpenAngle = FMath::Lerp(OpenAngle, TargetYaw, DeltaTime * 0.5f);
+    FRotator DoorRotation = GetOwner()->GetActorRotation();
+    DoorRotation.Yaw = OpenAngle;
+    GetOwner()->SetActorRotation(DoorRotation);
+}
+
+/**
+ * Function to close door.
+ * @param DeltaTime
+ */
+void UOpenDoor::CloseDoor(float DeltaTime)
+{
+    OpenAngle = FMath::Lerp(OpenAngle, InitialYaw, DeltaTime * 1.0f);
+    FRotator DoorRotation = GetOwner()->GetActorRotation();
+    DoorRotation.Yaw = OpenAngle;
+    GetOwner()->SetActorRotation(DoorRotation);
+}

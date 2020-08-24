@@ -21,36 +21,36 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="UE4" targetName="GDTV_BuildingEscapeEditor" />
-      <config projectName="UE4" targetName="GDTV_BuildingEscape-TVOS-Shipping" />
-      <config projectName="UE4" targetName="FakeTarget" />
-      <config projectName="UE4" targetName="GDTV_BuildingEscapeEditor-IOS-DebugGame" />
-      <config projectName="UE4" targetName="UE4Game" />
-      <config projectName="UE4" targetName="UE4Game-TVOS-Shipping" />
-      <config projectName="UE4" targetName="GDTV_BuildingEscape-IOS-Shipping" />
-      <config projectName="UE4" targetName="UE4Editor" />
-      <config projectName="UE4" targetName="GDTV_BuildingEscape-TVOS" />
-      <config projectName="UE4" targetName="GDTV_BuildingEscape" />
-      <config projectName="UE4" targetName="GDTV_BuildingEscapeEditor-Mac-Shipping" />
-      <config projectName="UE4" targetName="UE4Game-TVOS-DebugGame" />
-      <config projectName="UE4" targetName="GDTV_BuildingEscapeEditor-IOS-Shipping" />
       <config projectName="UE4" targetName="UE4Game-Mac-Shipping" />
-      <config projectName="UE4" targetName="GDTV_BuildingEscapeEditor-TVOS-Shipping" />
-      <config projectName="UE4" targetName="GDTV_BuildingEscape-IOS" />
-      <config projectName="UE4" targetName="GDTV_BuildingEscapeEditor-TVOS-DebugGame" />
-      <config projectName="UE4" targetName="UE4Game-IOS-DebugGame" />
-      <config projectName="UE4" targetName="GDTV_BuildingEscape-TVOS-DebugGame" />
-      <config projectName="UE4" targetName="UE4Game-IOS" />
       <config projectName="UE4" targetName="GDTV_BuildingEscape-IOS-DebugGame" />
       <config projectName="UE4" targetName="GDTV_BuildingEscapeEditor-Mac-DebugGame" />
-      <config projectName="UE4" targetName="UE4Editor-Mac-DebugGame" />
-      <config projectName="UE4" targetName="UE4Game-IOS-Shipping" />
-      <config projectName="UE4" targetName="GDTV_BuildingEscapeEditor-IOS" />
+      <config projectName="UE4" targetName="UE4Game-TVOS-DebugGame" />
+      <config projectName="UE4" targetName="GDTV_BuildingEscape-IOS" />
+      <config projectName="UE4" targetName="GDTV_BuildingEscape-TVOS-DebugGame" />
+      <config projectName="UE4" targetName="GDTV_BuildingEscape-TVOS-Shipping" />
+      <config projectName="UE4" targetName="GDTV_BuildingEscapeEditor-TVOS-DebugGame" />
+      <config projectName="UE4" targetName="FakeTarget" />
+      <config projectName="UE4" targetName="UE4Editor" />
+      <config projectName="UE4" targetName="GDTV_BuildingEscapeEditor-IOS-DebugGame" />
       <config projectName="UE4" targetName="GDTV_BuildingEscapeEditor-TVOS" />
-      <config projectName="UE4" targetName="GDTV_BuildingEscape-Mac-DebugGame" />
-      <config projectName="UE4" targetName="UE4Game-TVOS" />
+      <config projectName="UE4" targetName="GDTV_BuildingEscape-TVOS" />
+      <config projectName="UE4" targetName="UE4Game-IOS" />
       <config projectName="UE4" targetName="UE4Game-Mac-DebugGame" />
       <config projectName="UE4" targetName="UE4Editor-Mac-Shipping" />
+      <config projectName="UE4" targetName="GDTV_BuildingEscapeEditor-TVOS-Shipping" />
+      <config projectName="UE4" targetName="UE4Editor-Mac-DebugGame" />
+      <config projectName="UE4" targetName="UE4Game-IOS-Shipping" />
+      <config projectName="UE4" targetName="GDTV_BuildingEscape" />
+      <config projectName="UE4" targetName="GDTV_BuildingEscapeEditor-IOS-Shipping" />
+      <config projectName="UE4" targetName="GDTV_BuildingEscape-Mac-DebugGame" />
+      <config projectName="UE4" targetName="UE4Game-IOS-DebugGame" />
       <config projectName="UE4" targetName="GDTV_BuildingEscape-Mac-Shipping" />
+      <config projectName="UE4" targetName="GDTV_BuildingEscapeEditor-IOS" />
+      <config projectName="UE4" targetName="GDTV_BuildingEscapeEditor-Mac-Shipping" />
+      <config projectName="UE4" targetName="UE4Game" />
+      <config projectName="UE4" targetName="UE4Game-TVOS-Shipping" />
+      <config projectName="UE4" targetName="UE4Game-TVOS" />
+      <config projectName="UE4" targetName="GDTV_BuildingEscape-IOS-Shipping" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -60,31 +60,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fc406be-00ec-484c-a7c0-2388a9d4dfaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Levels/BuildingEscape.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Levels/BuildingEscape.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ModelsUsed/2x1_Door_and_Frame_Door.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ModelsUsed/2x1_Door_and_Frame_Frame.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ModelsUsed/Brass.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ModelsUsed/Brass_Knob.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ModelsUsed/Door.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ModelsUsed/DoorFrame_Concrete.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ModelsUsed/M_StoneWall_Inst.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ModelsUsed/M_WoodTexture.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ModelsUsed/Materials_Textures/Brass.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ModelsUsed/Materials_Textures/Brass.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ModelsUsed/Materials_Textures/Brass_Knob.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ModelsUsed/Materials_Textures/Brass_Knob.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ModelsUsed/Materials_Textures/Door.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ModelsUsed/Materials_Textures/Door.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ModelsUsed/Materials_Textures/M_StoneWall_Inst.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ModelsUsed/Materials_Textures/M_WoodTexture.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ModelsUsed/Materials_Textures/M_WoodTexture.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ModelsUsed/Materials_Textures/StoneWall_H_Mat.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ModelsUsed/Materials_Textures/StoneWall_H_Mat_Inst.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ModelsUsed/Materials_Textures/Stone_DoorFrame.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ModelsUsed/Materials_Textures/Stone_Floor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ModelsUsed/Materials_Textures/Stone_Floor.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ModelsUsed/Materials_Textures/Stone_Wall.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ModelsUsed/Materials_Textures/Stone_Wall.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ModelsUsed/Materials_Textures/WoodTexture.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ModelsUsed/Stone_DoorFrame.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ModelsUsed/Stone_Floor.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ModelsUsed/Stone_Wall.uasset" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/GDTV_BuildingEscape/OpenDoor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GDTV_BuildingEscape/OpenDoor.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/GDTV_BuildingEscape/OpenDoor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GDTV_BuildingEscape/OpenDoor.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/UE4.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/UE4.cbp" afterDir="false" />
@@ -273,36 +251,36 @@
     </configuration>
     <list>
       <item itemvalue="CMake Application.FakeTarget" />
-      <item itemvalue="CMake Application.GDTV_BuildingEscape" />
-      <item itemvalue="CMake Application.GDTV_BuildingEscape-IOS" />
       <item itemvalue="CMake Application.GDTV_BuildingEscape-IOS-DebugGame" />
       <item itemvalue="CMake Application.GDTV_BuildingEscape-IOS-Shipping" />
+      <item itemvalue="CMake Application.GDTV_BuildingEscape-IOS" />
       <item itemvalue="CMake Application.GDTV_BuildingEscape-Mac-DebugGame" />
       <item itemvalue="CMake Application.GDTV_BuildingEscape-Mac-Shipping" />
-      <item itemvalue="CMake Application.GDTV_BuildingEscape-TVOS" />
       <item itemvalue="CMake Application.GDTV_BuildingEscape-TVOS-DebugGame" />
       <item itemvalue="CMake Application.GDTV_BuildingEscape-TVOS-Shipping" />
-      <item itemvalue="CMake Application.GDTV_BuildingEscapeEditor" />
-      <item itemvalue="CMake Application.GDTV_BuildingEscapeEditor-IOS" />
+      <item itemvalue="CMake Application.GDTV_BuildingEscape-TVOS" />
       <item itemvalue="CMake Application.GDTV_BuildingEscapeEditor-IOS-DebugGame" />
       <item itemvalue="CMake Application.GDTV_BuildingEscapeEditor-IOS-Shipping" />
+      <item itemvalue="CMake Application.GDTV_BuildingEscapeEditor-IOS" />
       <item itemvalue="CMake Application.GDTV_BuildingEscapeEditor-Mac-DebugGame" />
       <item itemvalue="CMake Application.GDTV_BuildingEscapeEditor-Mac-Shipping" />
-      <item itemvalue="CMake Application.GDTV_BuildingEscapeEditor-TVOS" />
       <item itemvalue="CMake Application.GDTV_BuildingEscapeEditor-TVOS-DebugGame" />
       <item itemvalue="CMake Application.GDTV_BuildingEscapeEditor-TVOS-Shipping" />
-      <item itemvalue="CMake Application.UE4Editor" />
+      <item itemvalue="CMake Application.GDTV_BuildingEscapeEditor-TVOS" />
+      <item itemvalue="CMake Application.GDTV_BuildingEscapeEditor" />
+      <item itemvalue="CMake Application.GDTV_BuildingEscape" />
       <item itemvalue="CMake Application.UE4Editor-Mac-DebugGame" />
       <item itemvalue="CMake Application.UE4Editor-Mac-Shipping" />
-      <item itemvalue="CMake Application.UE4Game" />
-      <item itemvalue="CMake Application.UE4Game-IOS" />
+      <item itemvalue="CMake Application.UE4Editor" />
       <item itemvalue="CMake Application.UE4Game-IOS-DebugGame" />
       <item itemvalue="CMake Application.UE4Game-IOS-Shipping" />
+      <item itemvalue="CMake Application.UE4Game-IOS" />
       <item itemvalue="CMake Application.UE4Game-Mac-DebugGame" />
       <item itemvalue="CMake Application.UE4Game-Mac-Shipping" />
-      <item itemvalue="CMake Application.UE4Game-TVOS" />
       <item itemvalue="CMake Application.UE4Game-TVOS-DebugGame" />
       <item itemvalue="CMake Application.UE4Game-TVOS-Shipping" />
+      <item itemvalue="CMake Application.UE4Game-TVOS" />
+      <item itemvalue="CMake Application.UE4Game" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -318,7 +296,10 @@
       <workItem from="1596139403093" duration="11000" />
       <workItem from="1596491231286" duration="483000" />
       <workItem from="1596650163680" duration="3002000" />
-      <workItem from="1597890103354" duration="5652000" />
+      <workItem from="1597890103354" duration="7999000" />
+      <workItem from="1597974805769" duration="8599000" />
+      <workItem from="1598039475059" duration="150000" />
+      <workItem from="1598087818664" duration="192000" />
     </task>
     <servers />
   </component>
@@ -335,6 +316,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="313" y="133" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1596652182325">
@@ -349,5 +331,9 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="421" y="50" width="714" height="822" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1597890989456" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1598012121570">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1598012121570" />
   </component>
 </project>
