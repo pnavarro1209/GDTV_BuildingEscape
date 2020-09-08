@@ -25,9 +25,6 @@ void UOpenDoor::BeginPlay()
 	InitialYaw = GetOwner()->GetActorRotation().Yaw;
 	TargetYaw += InitialYaw;
     OpenAngle = InitialYaw;
-
-    //Getting Actor for Pressure Plate to check
-    ActorThatOpensDoor = GetWorld()->GetFirstPlayerController()->GetPawn();
 }
 
 
@@ -37,7 +34,7 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	//triggers opening the door when Actor touches the Pressure Plate
-	if(PressurePlate && PressurePlate->IsOverlappingActor(ActorThatOpensDoor))
+	if(TotalMassOfActors() > 50.f)
 	{
 	    OpenDoor(DeltaTime);
 	    DoorLastOpened = GetWorld()->GetTimeSeconds();
@@ -49,7 +46,6 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
             CloseDoor(DeltaTime);
         }
     }
-
 }
 
 /**
@@ -74,4 +70,22 @@ void UOpenDoor::CloseDoor(float DeltaTime)
     FRotator DoorRotation = GetOwner()->GetActorRotation();
     DoorRotation.Yaw = OpenAngle;
     GetOwner()->SetActorRotation(DoorRotation);
+}
+
+float UOpenDoor::TotalMassOfActors()
+{
+	float TotalMass = 0.f;
+
+	//Find All Overlapping Actors
+	TArray<AActor*> OverlappingActors;
+	if(!PressurePlate) {return TotalMass;}
+	PressurePlate->GetOverlappingActors(OverlappingActors);
+	
+	//Add Up Their Masses
+	for(AActor* Actor : OverlappingActors)
+	{
+		TotalMass += Actor->FindComponentByClass<UPrimitiveComponent>()->GetMass();
+	}
+	
+	return TotalMass;
 }

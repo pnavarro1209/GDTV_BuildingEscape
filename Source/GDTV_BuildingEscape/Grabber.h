@@ -28,8 +28,13 @@ public:
 
 	void SetupInputComponent();
 
+	void UpdatePlayerViewpoint();
+
 	//Return first actor in reach with a physics body
 	FHitResult GetFirstPhysicsBodyInReach() const;
+	
+	//Find  actual reach location
+	FVector GetReachLocation() const;
 	
 protected:
 	// Called when the game starts
@@ -38,7 +43,11 @@ protected:
 private:
     float Reach = 100.f;
 
+	UPROPERTY()
     UPhysicsHandleComponent* PhysicsHandle = nullptr;
-
+	UPROPERTY()
 	UInputComponent* InputComponent = nullptr;
+
+	FVector PlayerViewpointLocation;
+	FRotator PlayerViewpointRotation;
 };
