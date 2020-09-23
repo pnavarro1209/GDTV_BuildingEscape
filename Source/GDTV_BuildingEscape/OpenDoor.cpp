@@ -34,7 +34,7 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	//triggers opening the door when Actor touches the Pressure Plate
-	if(TotalMassOfActors() > 50.f)
+	if(TotalMassOfActors() < MaxWeight && TotalMassOfActors() > MinWeight)
 	{
 	    OpenDoor(DeltaTime);
 	    DoorLastOpened = GetWorld()->GetTimeSeconds();

@@ -35,6 +35,7 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	if(!PhysicsHandle) {return;}
 	if(PhysicsHandle->GrabbedComponent)
 	{
+		UpdatePlayerViewpoint();
 		PhysicsHandle->SetTargetLocation(GetReachLocation());
 	}
 	
@@ -57,6 +58,8 @@ void UGrabber::Grab()
 			            GetReachLocation()
 			        );
 	}
+
+	
 }
 
 void UGrabber::Release()
@@ -96,7 +99,7 @@ FHitResult UGrabber::GetFirstPhysicsBodyInReach() const
         PlayerViewpointLocation,
         LineTraceEnd,
         FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody),
-        TraceParams
+        TraceParams 
     );
 	return Hit;
 }

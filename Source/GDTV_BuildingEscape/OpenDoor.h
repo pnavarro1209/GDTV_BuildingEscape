@@ -41,4 +41,10 @@ private:
 
     UPROPERTY(EditAnywhere)
     ATriggerVolume* PressurePlate = nullptr;
+
+	UPROPERTY(EditAnywhere)
+	float MaxWeight;
+
+	UPROPERTY(EditAnywhere)
+	float MinWeight;
 };
